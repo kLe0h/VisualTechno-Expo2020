@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login | 🌐</title>
+	<link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <!-- Nav Bar -->
+  <header class="topper" >
+    <div class="container">
+    <div class="btn-menu">
+      <label for="btn-menu">☰</label>
+    </div>
+      <div class="logo">
+        <h1>Visual Techno</h1>
+      </div>
+      </nav>
+    </div>
+  </header>
+  <div class="capa"></div>
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+  <div class="cont-menu">
+    <nav>
+      <a href="../../index.html" class="link">Inicio</a>
+      <a href="../../noticias.html" class="link">Noticias</a>
+      <a href="../../videojuegos.html" class="link">Videojuegos</a>
+      <a href="../../preguntas.html"class="link" >Preguntas frecuentes</a>
+      <a href="../../store.html"class="link" >Visual Store</a>
+    </nav>
+    <label for="btn-menu">✖️</label>
+  </div>
+</div>
+  
+      <!--fin de menu lateral-->
+         
+          </header>
+    
+      <!-- Titulo -->
+    <div class="titulo">
+      <h2>¡Únete y sé parte de nosotros!</h2>
+    </div>
+     
+   <br><br>
+   <!-- FORM DE MARIO -->
+  <div class="grid">
+
+    <form action="send/envio.php" method="POST" class="form login">
+
+
+       <!-- Usser Name -->
+      <div class="form__field">
+      	<input type="image" src="img/user.png" class="img">
+        <label for="login__username" class="login_label">
+          <span class="hidden">Usuario</span></label>
+        <input id="login__username" type="text" name="username" class="form__input" placeholder="Username" required>
+      </div>
+
+
+        <!-- EMAIL -->
+      <div class="form__field">
+        <input type="image" src="img/mail.png" class="img">
+        <label for="login__email" class="login_label">
+          <span class="hidden">E-mail</span></label>
+        <input id="login__email" type="email" name="email" class="form__input" placeholder="E-mail" required>
+      </div>
+       
+       
+
+       <!-- Password -->
+      <div class="form__field">
+      	<input type="image" src="img/pass.png" class="img">
+        <label for="login__password" class="login_label">
+          <span class="hidden">Contraseña</span></label>
+        <input id="login__password"  type="password" name="pass" class="form__input" placeholder="Password" required>
+      </div>
+      <div class="form__field">
+
+
+
+
+        <!-- Check box -->
+<input id="cbx" type="checkbox" value="1" id="cbx" onclick="btn.disabled = !this.checked" required/>
+<label class="cbx" for="cbx">
+  <div class="flip">
+    <div class="front"></div>
+    <div class="back">
+      <svg width="16" height="14" viewBox="0 0 16 14">
+        <path d="M2 8.5L6 12.5L14 1.5"></path>
+      </svg>
+    </div>
+  </div>
+</label>
+     
+   <label for="cbx" class="terminos">Aceptas Terminos y Condiciones del uso de esta plataforma</label>
+      </div>
+      <div class="form__field">
+         <button class="btn btn--1" name="btn" id="1" onclick="" disabled/>
+     Crear Cuenta
+    </button>
+      </div>
+      <div class="form__field">
+        <p>¿Ya tienes una cuenta? <a href="../sig_in/form.html" class="unirse">¡Inicia sesion aca!</a></p>
+     </div>
+    </form>
+    <br><br>
+  </div>
+  <footer>
+        <div class="contenedor-footer">
+          <div class="content-foo">
+            <h4>Contacto</h4>
+            <p>77750898</p>
+            </div>
+            <div class="content-foo">
+              <h4>Ubicacion</h4>
+              <p>El Salvador</p>
+              </div>
+              <div class="content-foo">
+                <h4>Email</h4>
+                <p>visualtechnox@gmail.com</p>
+                </div>
+        </div>
+        <h2 class="titulo-final">&copy; VisualTechno | EXPO 2020</h2>
+
+    </footer>
+</body>
+</html>

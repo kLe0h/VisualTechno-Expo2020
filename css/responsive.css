@@ -1,0 +1,36 @@
+@media screen and (max-width:900px){
+    header {
+        background-position: center;
+    }
+
+    .contenido-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+    .imagen-about-us{
+        width: 90%;
+    }
+   .servicio-cont{
+        justify-content: center;
+        flex-direction: column;
+   }
+   .servicio-ind{
+       width: 100%;
+       text-align: center;
+   }
+   .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+       margin-bottom: 60px;
+   }
+
+   .servicio-ind img{
+       width: 90%;
+   }
+
+   .menu{
+    widows: 20%;
+   }
+}
